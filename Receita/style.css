@@ -1,0 +1,121 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 100px;
+    background-image: url(/img/receita-federal-logo.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: pink;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background{
+    border-radius: 20px;
+    background-color: pink;
+    background-image: url("https://i.pinimg.com/736x/7b/c8/89/7bc889cdb90f9ffc892005e8cadd3270.jpg");
+    padding: 30px;
+    width: 75%;
+    box-shadow: 0px 5px 30px #00000076
+}
+.background2{
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    border-radius: 0 0 40px 40px;
+    box-shadow: 0px 5px 30px #00000076;
+    transition: 1s;
+}
+.doted{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+ul{
+    list-style-type: decimal;
+    list-style-position: inside;
+    text-align: justify;
+}
+.container-ul{
+    justify-content: center;
+}
+header h2{
+    color: #001F56;
+    font-size: 35px;
+}
+.img{
+    width: 95%;
+    height: 300px;
+    background-image: url("https://i.ytimg.com/vi/8lW_KzUJi0k/maxresdefault.jpg");
+    background-size: cover;
+    background-color: black;
+    background-position: center;
+    border-radius: 20px;
+}
+.borda-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 330px;
+    background-color: pink;
+    border-radius: 30px;
+    transition: 1s;
+    cursor: grabbing;
+}
+footer{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 50px 50px 0 0;
+    box-shadow: 0px 5px 30px #00000076;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 970px){
+    .borda-img{
+        width: 90%;
+    }
+    header{
+        flex-direction: column;
+    }
+
+}
+
+.borda-img:hover{
+    width: 95%;
+    transition: 0,3s;
+    box-shadow: 0px 5px 30px #00000076;
+}

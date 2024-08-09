@@ -1,0 +1,23 @@
+
+
+.animations{
+    transition: 1s;
+    color: red;
+    text-align: center;
+    cursor: pointer;
+    size: 16px;
+}
+
+.animations:hover{
+    color: blue;
+    size: 600px;
+}
+
+.img{
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://preview.redd.it/i-got-bored-so-i-decided-to-draw-a-random-image-on-the-v0-4ig97vv85vjb1.png?width=640&crop=smart&auto=webp&s=22ed6cc79cba3013b84967f32726d087e539b699");
+    background-color: black;
+}
