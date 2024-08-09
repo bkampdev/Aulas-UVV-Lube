@@ -1,2 +1,2 @@
 # Projetos desenvolvidos em aula da UVV
-## Professor pediu, tá feito
+## Professor pediu, tá feito.
