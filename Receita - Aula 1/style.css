@@ -119,3 +119,45 @@ footer{
     transition: 0,3s;
     box-shadow: 0px 5px 30px #00000076;
 }
+
+input{
+    width: 90%;
+    border-radius: 10px;
+    border: pink 2px;
+    padding-left: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+textarea{
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-top: 5px;
+    resize: none;
+    height: 80px;
+}
+
+.enviar{
+    width: 75%;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: pink;
+    color: white;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.enviar:hover{
+    background-color: black;
+    color: white;
+}
+
+.checkbox{
+    width: 10%;
+    text-align: left;
+}
