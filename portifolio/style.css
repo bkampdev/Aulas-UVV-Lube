@@ -76,14 +76,12 @@ header .sel{
     
 }
 
-.video{
-    background-image: url(./assets/video/anmbkamp_1.gif);
-    width: 100%;
-    height: 80vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+video{
     position: fixed;
+    width: 100%;
+    object-fit: fit;
+    max-width: 1920px;
+    background-attachment: fixed
 }
 
 
