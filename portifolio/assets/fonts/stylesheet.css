@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Blackish Demo';
+    src: url('BlackishDemoRegular.woff2') format('woff2'),
+        url('BlackishDemoRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

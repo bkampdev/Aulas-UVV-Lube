@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&display=swap');
+
+a{text-decoration: none;}
+
+@keyframes aparecer {
+    to {
+      opacity: 1;
+    }
+}
+
+.purple{
+    color: #9940B9;
+}
+
+.logo-incio{
+    background-color: #9940B9;
+    width: 200px;
+    background-image: url(/portifolio/assets/img/logo2.png);
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #9940B9;
+}
+
+.buttons a{
+    margin: 20px;
+    font-family: Montserrat;
+    color: white;
+    transition: 0.3s;
+    border-bottom: 2px solid transparent;
+    size: 20px;
+}
+
+.buttons a:hover{
+    border-bottom: 2px solid white;
+}
+
+header .sel{
+    border-bottom: 2px solid white;
+    border-radius: 1px;
+}
+
+.container-video{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-attachment: fixed
+}
+
+video{
+    position: fixed;
+    width: 100%;
+    object-fit: fit;
+    max-width: 1920px;
+    background-attachment: fixed
+}
+
+.seta i{
+    color: white;
+    size: 50px;
+    opacity: 0;
+    animation: aparecer 1s ease forwards;
+    animation-delay: 4s;
+}
+.seta{
+    position: absolute;
+    height: 90vh;
+    display: flex;
+    align-items: end;
+}
+
+.container-artes{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url(/portifolio/assets/img/bg-artes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-artes h1{
+    font-family: Montserrat;
+    font-size: 90px;
+    font-weight: 400;
+}
+
+.container-artes .cont-text{
+    width: 65%;
+    position: relative;
+    
+}
+
+.gradient-w-b{
+    width:100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 4%, rgba(0,0,0,1) 98%);
+    height: 200px;
+}
+
+.container-areas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    background-color: white;
+}
+
+.container-areas h1{
+    font-family: Montserrat;
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.container-areas .cont-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    background-color: black;
+}
+
+.cont-areas{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+}
+.cont-areas p{
+    font-family: Montserrat;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 0px 0px 40px black;
+}
+
+.cont-areas div{
+    width: 33.3333%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.id{
+    background-image: url(/portifolio/assets/img/Projetando\ em\ um\ Tablet.jpg);
+}
+.md{
+    background-image: url(/portifolio/assets/img/Purple_Satin.jpg.webp);
+}
+.wd{
+    background-image: url(/portifolio/assets/img/11062b_abcafc9ab39b41aa976ebad0e170cc39~mv2.jpg.webp);
+}
+
+.container-mot{
+    position: relative;
+    width: 100%;
+    height: 950px;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-mot .idea{
+    width: 90%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: montserrat;
+    margin-bottom: 90px;
+    margin-top: 200px;
+}
+
+.container-mot .exec{
+    width: 90%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: montserrat;
+}
+
+.container-jobs{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-jobs div{
+    width: 50%;
+    height: 600px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.img-fall{
+    background-image: url(/portifolio/assets/video/42cd75_183d3001804948c9b6b934dc14691c2b~mv2.gif) ;
+}
+
+.img-cube{
+    background-image: url(/portifolio/assets/img/cubo_3D.png);
+    background-size: cover;
+}
+
+.container-entrega{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.wix-madefor-display {
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.container-entrega h2{
+    color: white;
+    font-family: "Wix Madefor Display";
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.transparent{
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    position: relative;
+}
+
+.container-cloud{
+    background-color: white;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+.cont-data{
+    width: 35%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.cont-data h2{
+    text-align: center;
+    font-family: "wix madefor display";
+}
+
+.img-data{
+    width: 75%;
+    height: 600px;
+    background-image: url(/portifolio/assets/img/data.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 900px) {
+    
+    .container-cloud{
+        flex-direction: column;
+    }
+
+    .cont-data{
+        width: 90%;
+    }
+
+    .img-data{
+        width: 100%;
+    }
+}
+
+.container-cta{
+    width: 100%;
+    height: 900px;
+    position: relative;
+    background-color: white;
+    text-align: center;
+    font-family: "wix madefor display";
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.container-cta h1{
+ font-size: 50px;
+ margin-bottom: 40px;
+}
+
+.container-cta h3{
+    font-size: 40px;
+    margin-bottom: 90px;
+}
+
+.cnt-bnt{
+    background-color: #9940B9;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.cnt-bnt:hover{
+    background-color: black;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+
+}
+
+footer .container-final{
+    background-color: black;
+    width: 100%;
+    border-radius: 50px 50px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer p{
+    font-size: 20px;
+    font-family: montserrat;
+    color: white;
+}
+
+.logo-final{
+    background-image: url(/portifolio/assets/img/logo2.png);
+    width: 150px;
+    height: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.devs{
+    margin-top: 20px;
+}
+
+
+
