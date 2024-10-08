@@ -492,6 +492,11 @@ footer p{
     .seta{
         height: 65vh;
     }
+
+    .video{
+        width: 150%;
+        height: 50vh;
+    }   
 }
 
 
