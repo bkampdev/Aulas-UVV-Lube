@@ -80,13 +80,15 @@ header .sel{
     
 }
 
-video{
-    position: fixed;
+.video{
+    background-image: url(https://bkamp.com.br/src/videos/anmbkamp_1.gif);
     width: 100%;
-    object-fit: fit;
-    max-width: 1920px;
-    background-attachment: fixed
-}
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: fixed;
+}   
 
 
 .seta i{
@@ -485,6 +487,10 @@ footer p{
 
     .container-mot{
         height: 600px;
+    }
+
+    .seta{
+        height: 65vh;
     }
 }
 
