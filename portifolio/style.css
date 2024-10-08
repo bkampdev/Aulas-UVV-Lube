@@ -464,6 +464,28 @@ footer p{
         flex-direction: column;
         height: 150vh;
     }
+
+    .container-artes h1{
+        font-size: 45px;
+    }
+    
+    .container-artes .cont-text{
+        width: 65%;
+    }
+
+    .container-mot .idea{
+        font-size: 35px;
+        height: 300px;
+    }
+    
+    .container-mot .exec{
+        font-size: 20px;
+        height: 100px;
+    }
+
+    .container-mot{
+        height: 600px;
+    }
 }
 
 
