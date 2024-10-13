@@ -46,16 +46,26 @@ section div{
     width: 75%;
 }
 
-section div a{
+.cont-bnt{
     background-color: #9940B9;
-    padding: 50px;
     text-decoration: none;
     border-radius: 20px;
     font-size: 70px;
     transition: 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    height: 200px;
+    margin: 20px;
 }
 
-section div a:hover{
+.cont-bnt a{
+    text-decoration: none;
+}
+
+.cont-bnt:hover{
     background-color: black;
     color: #fff;
     text-align: center;
@@ -112,4 +122,21 @@ footer p{
 
 .devs{
     margin-top: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .cont-bnt{
+        font-size: 30px;
+        width: 100% ;
+        height: 100px;
+    }
+
+    section h2{
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+    
+    section div{
+        flex-direction: column;
+    }
 }
