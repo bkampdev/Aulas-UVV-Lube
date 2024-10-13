@@ -10,8 +10,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&display=swap');
 
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #9940b9, 0 0 40px #9940b9, 0 0 50px #9940b9, 0 0 60px #9940b9, 0 0 70px #9940b9;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #b166e0, 0 0 40px #b166e0, 0 0 50px #b166e0, 0 0 60px #b166e0, 0 0 70px #b166e0, 0 0 80px #b166e0;
+    }
+  }
+  
+
 body{
     background-color: black;
+}
+
+.purple{
+    color: #9940B9;
 }
 
 section{
@@ -37,10 +51,65 @@ section div a{
     padding: 50px;
     text-decoration: none;
     border-radius: 20px;
-    font-size: 50px;
+    font-size: 70px;
+    transition: 0.5s ease;
+}
+
+section div a:hover{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
 }
 
 h2{
     font-size: 80px;
     margin-bottom: 150px;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    position: absolute;
+
+    
+}
+
+footer .container-final{
+    background-color: white;
+    width: 100%;
+    border-radius: 50px 50px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    margin-bottom: 130px;
+}
+
+footer p{
+    font-size: 20px;
+    font-family: montserrat;
+    color: black;
+}
+
+.logo-final{
+    background-image: url(./portifolio/assets/img/logo2.png);
+    width: 150px;
+    height: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: invert();
+}
+
+.devs{
+    margin-top: 20px;
 }
